@@ -13,12 +13,12 @@ class Acao:
 
 
 # Criar algumas ações de exemplo
-acao1 = Acao("AAPL", "Apple Inc.", 135.50, 10)
-acao2 = Acao("GOOGL", "Alphabet Inc.", 2500.75, 5)
-acao3 = Acao("MSFT", "Microsoft Corporation", 300.00, 8)
+acao1 = Acao("BBDC3", "BRADESCO ON", 13.37, 10)
+acao2 = Acao("BBDC4", "BRADESCO PN", 15.76, 5)
+acao3 = Acao("BRAP4", "BRADESPAR PN", 21.53, 8)
 
 # Atualizar o preço de uma ação
-acao1.atualizar_preco(140.25)
+acao1.atualizar_preco(14.00)
 
 # Calcular o valor total de uma ação
 valor_total_acao2 = acao2.calcular_valor_total()
